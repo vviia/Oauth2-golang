@@ -17,8 +17,8 @@ import (
 // Scopes: OAuth 2.0 scopes provide a way to limit the amount of access that is granted to an access token.
 var googleOauthConfig = &oauth2.Config{
 	RedirectURL:  "http://localhost:8000/auth/google/callback",
-	ClientID:     `insert your CLIENT ID`,
-	ClientSecret: `insert your CLIENT SECRET`,
+	ClientID:     `589257216021-g7gse23154pg37b8p24f0uueuci0mik4.apps.googleusercontent.com`,
+	ClientSecret: `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`,
 	Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 	Endpoint:     google.Endpoint,
 }
